@@ -127,6 +127,37 @@ height: 19px;
     margin: 0px 10px 30px 10px;
  }
 
+.nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav a {
+    margin-right: 0px;
+    padding: 0px;
+}
+div img {
+    width: 61.09px;
+height: 19px;
+gap: 0px;
+opacity: 0px;
+}
+
+.nav .heb, .act {
+    background: white;
+    border-top: 3px solid transparent;
+    padding-top: 15px;
+ }
+ 
+ .nav .heb:hover, .act:hover {
+    background: white;
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+ }
+
+ .heb, .act {
+    margin: 0px 10px 30px 10px;
+ }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
