@@ -236,7 +236,31 @@ height: 19px;
 }
 
 
+/****** Footer ***********/
+.main-footer {
+    background-color: #F2F2F2;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
 
+    .about {
+        width: 33%;
+    }
+
+    .housings {
+        width: 33%;
+    }
+
+    .assistance {
+        width: 33%;
+    }
+
+    .text {
+        margin-top: 10px;
+        font-weight: 500;
+    }
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
