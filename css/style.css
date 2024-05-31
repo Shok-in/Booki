@@ -127,7 +127,6 @@ height: 19px;
 }
 
 .search-button button {
-    background: transparent;
     border: 1px #0065FC solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -137,6 +136,12 @@ height: 19px;
     font-weight: bold;
     background-color: #0065FC;
 }
+
+.bold {
+    font-weight: bold;
+    font-size: large;
+}
+ /*******************************************************/
 
 .nav {
     display: flex;
@@ -166,7 +171,7 @@ height: 19px;
  .heb, .act {
     margin: 0px 10px 30px 10px;
  }
- 
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
