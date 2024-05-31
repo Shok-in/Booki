@@ -98,51 +98,6 @@ height: 19px;
     margin: 0px 10px 30px 10px;
  }
 
- /****** Formulaires ***********/
-.formulaire {
-    margin-left: 3em;
-}
-
-.search_bar {
-    margin: 20px;
-    display: flex;
-    margin-left: 0px;
- }
-
-.vector img {
-    height: 16px;
-    border: 1px #F2F2F2 solid;
-    padding: 12.5px;
-    background-color: #F2F2F2;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.search-area input {
-    border: 1px #F2F2F2 solid;
-    padding: 10px;
-    font-size: large;
-    font-weight: bold;
-    outline-style: none;
-}
-
-.search-button button {
-    border: 1px #0065FC solid;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 10px;
-    color: white;
-    font-size: large;
-    font-weight: bold;
-    background-color: #0065FC;
-}
-
-.bold {
-    font-weight: bold;
-    font-size: large;
-}
- /*******************************************************/
-
 .nav {
     display: flex;
     margin-left: auto;
@@ -235,8 +190,93 @@ height: 19px;
     margin-bottom: 5px;
 }
 
+/****** Formulaires ***********/
+.formulaire {
+    margin-left: 3em;
+}
 
+.accroche {
+    margin-top: 20px;
+}
+.search_bar {
+    margin: 20px;
+    display: flex;
+    margin-left: 0px;
+ }
 
+.vector img {
+    height: 16px;
+    border: 1px #F2F2F2 solid;
+    padding: 12.5px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search-area input {
+    border: 1px #F2F2F2 solid;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    outline-style: none;
+}
+
+.search-button button {
+    border: 1px #0065FC solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: #0065FC;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: large;
+}
+
+/****** Filtres ***********/
+.filters {
+    display: flex;
+    margin-left: 3em;
+
+    .filter {
+        margin: 10px;
+        display: flex;
+        border: 2px #d9d9d9 solid;
+        border-radius: 30px;
+        padding: 5px;
+        padding-right: 7px;
+
+        img {
+            margin: 10px;
+        }
+    }
+
+    .filter-text {
+        margin-top: 7px;
+        margin-right: 5px;
+    }
+    
+    button {
+        display: flex;
+        border: none;
+        border-radius: 30px;
+        background: transparent;
+    }
+
+    button:hover, button:focus {
+        background-color: #DEEBFF;
+    }
+}
+
+.text {
+    margin: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
