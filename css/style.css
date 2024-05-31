@@ -157,13 +157,43 @@ height: 19px;
     margin: 0px 10px 30px 10px;
  }
  /****** Formulaires ***********/
- .search_bar {
+.formulaire {
+    margin-left: 3em;
+}
+
+.search_bar {
+    margin: 20px;
     display: flex;
+    margin-left: 0px;
  }
-.search_bar button,.search_bar input,.search_bar div {
+
+.vector img {
+    height: 16px;
+    border: 1px #F2F2F2 solid;
+    padding: 12.5px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search-area input {
+    border: 1px #F2F2F2 solid;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    outline-style: none;
+}
+
+.search-button button {
     background: transparent;
-    border: none;
-    padding: 20px;
+    border: 1px #0065FC solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: #0065FC;
 }
 
 /****** Hebergements And Populaires ***********/
