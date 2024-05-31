@@ -158,7 +158,7 @@ height: 19px;
     justify-content: space-between;
 }
 .hebergements-cards .card {
-    width: 210px;
+    width: 230px;
     display: flex;
     margin-top: 33px;
     flex-direction: column;
@@ -192,6 +192,7 @@ height: 19px;
     margin-top: 55px;
     margin-bottom: 0;
 }
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
