@@ -12,6 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css"">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
     <div class="formulaire">
         <div class="accroche">
             <div class="bold"> Trouvez votre hébergement pour des vacances de rêve</div>
-            En plein centre-ville ou en pleine nature
+            <div class="subtext"> En plein centre-ville ou en pleine nature</div>
         </div>
 
         <div class="search_bar">
@@ -41,16 +42,19 @@
                 <img src="images/logo/Vector.png" alt="">
             </div>
             <div class="search-area">
-                <input type="text" id="ville" name="ville" placeholder="Destination">
+                <input type="text" id="ville" name="ville" placeholder="Marseille, France">
             </div>
             <div class="search-button">
                 <button type="submit">Rechercher</button>
             </div>
+            <div class="search">
+                <img src="images/logo/Search.png" alt="">
+            </div>
         </div>
     </div>
-
+<div>
+    <div class="text bold">Filtres</div>
     <div class="filters">
-        <div class="text bold">Filtres</div>
         <div>
             <button class="filter">
                 <img src="images/logo/Bill.png" alt="Economique">
@@ -76,6 +80,8 @@
             </button>
         </div>
     </div>
+
+</div>
 
     <div class="main-container">
         <main>
@@ -141,7 +147,7 @@
                                     </div>
                                 </div>
                             </article>
-                        </a>
+                        </a>                    
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/hotel_de_la_mer.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -199,9 +205,9 @@
                                 </div>
                             </article>
                         </a>
-                        <div>
-                            <h3 class="hebergements-plus">Afficher plus</h3>
-                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hebergements-plus">Afficher plus</h3>
                     </div>
                 </section>
                 <section id="populaires" class="populaires">
@@ -277,7 +283,9 @@
                 <div class="activites-cards">
                     <a href="#">
                         <article class="card">
-                            <img src="./images/activites/vieux_port.jpg" alt="Image du vieux port">
+                            <div class="port">
+                                <img src="./images/activites/vieux_port.jpg" alt="Image du vieux port">
+                            </div>
                             <div class="card-txt">
                                     <h3 class="card-title">Vieux-port</h3>
                             </div>
@@ -285,7 +293,7 @@
                     </a>
                     <a href="#">
                         <article class="card">
-                            <div>
+                            <div class="fort">
                                 <img src="./images/activites/Fort.jpg" alt="Image du Fort de Pomègues">
                             </div>
                             <div class="card-txt">
