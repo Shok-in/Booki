@@ -197,6 +197,10 @@ height: 19px;
     margin-top: 55px;
     margin-bottom: 0;
 }
+
+.hebergements-cards .card {
+    min-height: 200px;
+}
 /****** Activites ***********/
 
 .activites-cards {
