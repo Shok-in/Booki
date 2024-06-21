@@ -14,6 +14,8 @@
 }
 
 body {
+    margin: auto;
+    max-width: 1440px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -118,7 +120,7 @@ height: 19px;
 
 .nav .heb, .act {
     background: white;
-    border-top: 3px solid transparent;
+    border-top: 4px solid transparent; 
     padding-top: 15px;
  }
  
@@ -195,6 +197,10 @@ height: 19px;
     margin-top: 55px;
     margin-bottom: 0;
 }
+
+.hebergements-cards .card {
+    min-height: 200px;
+}
 /****** Activites ***********/
 
 .activites-cards {
@@ -204,7 +210,7 @@ height: 19px;
     justify-content: space-between;
 }
 .activites-cards .card {
-    max-width: 253px;
+    max-width: 400px;
     display: flex;
     margin-top: 33px;
     flex-direction: column;
@@ -217,11 +223,17 @@ height: 19px;
     border-top-right-radius: 20px;
 }
 
+.activites .fort img {
+    width: 400px;
+}
+
 .activites-cards .card-title {
     margin-top: 10px;
     margin-left: 10px;
 }
-
+.activites-cards a {
+    margin: 10px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -317,6 +329,10 @@ height: 19px;
 }
 
 /****** Filtres ***********/
+.filtres {
+    padding: 0px 50px;
+    display: flex;
+}
 .filters {
     display: flex;
 
