@@ -108,6 +108,12 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            border-bottom: 2px solid #f2f2f2;
+        }
+
+        .heb:hover {
+            border-top: none;
+            border-bottom: 3px solid #0065FC;
         }
 
         .act {
@@ -115,6 +121,12 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            border-bottom: 2px solid #f2f2f2;
+        }
+
+        .act:hover {
+            border-top: none;
+            border-bottom: 3px solid #0065FC;
         }
 
     }
@@ -128,7 +140,6 @@
     }
 
     .search_bar {
-        margin: 0;
         justify-content: center;
     }
 
