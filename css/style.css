@@ -160,7 +160,9 @@ height: 19px;
 
 .hebergements-cards{   
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    position: relative;
+    left: -4%;
 }
 .hebergements-cards a {
     margin-top: 20px;
@@ -178,6 +180,7 @@ height: 19px;
 .hebergements-cards .card-content {
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
 }
 
 .hebergements-cards .card-title {
@@ -190,11 +193,11 @@ height: 19px;
 }
 
 .hebergements-cards .card-rating {
-    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .hebergements-plus {
-    margin-top: 55px;
+    margin-top: 45px;
     margin-bottom: 0;
 }
 
@@ -203,16 +206,24 @@ height: 19px;
 }
 /****** Activites ***********/
 
+.activites {
+    margin-top: 50px;
+}
+
+.activites-title {
+    margin-left: 3%;
+    font-size: 20px;
+}
+
 .activites-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .activites-cards .card {
-    max-width: 400px;
+    max-width: 300px;
     display: flex;
-    margin-top: 33px;
     flex-direction: column;
 }
 
@@ -264,6 +275,7 @@ height: 19px;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .populaires-cards .card-title {
@@ -275,10 +287,6 @@ height: 19px;
     margin: 0;
 }
 
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
-}
-
 /****** Formulaires ***********/
 
 .accroche {
@@ -286,7 +294,7 @@ height: 19px;
 }
 
 .search_bar {
-    margin: 20px;
+    margin-top: 30px;
     display: flex;
     margin-left: 0px;
  }
@@ -312,6 +320,10 @@ height: 19px;
     outline-style: none;
 }
 
+.search-area input::placeholder {
+    color: #000;
+}
+
 .search-button button {
     border: 1px #0065FC solid;
     border-top-right-radius: 15px;
@@ -321,6 +333,18 @@ height: 19px;
     font-size: large;
     font-weight: bold;
     background-color: #0065FC;
+}
+
+.information {
+    padding: 10px 0px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+
+    img {
+        margin-right: 10px;
+        height: 16px;
+    }
 }
 
 .bold {
@@ -335,6 +359,7 @@ height: 19px;
 }
 .filters {
     display: flex;
+    padding: 0;
 
     .filter {
         min-width: 163px;
@@ -370,6 +395,7 @@ height: 19px;
 .text {
     margin: 5px;
     padding: 10px;
+    padding-left: 0;
     margin-top: 15px;
 }
 /****** Footer ***********/

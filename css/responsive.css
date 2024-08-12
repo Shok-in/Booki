@@ -1,6 +1,14 @@
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+/* Large devices adjustements */
+@media (min-width: 1025px) {
+    .search_bar {
+        margin-bottom: 20px;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) and (min-width:768px) {
     body{
@@ -61,11 +69,10 @@
 
    
     .filters {
-        padding: 0px;
+        margin-left: -10px;
         display: flex;
-        justify-content: space-around;
         .filter {
-            margin: 0;
+            margin-right: 10px;
         }
     }
 
