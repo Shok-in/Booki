@@ -124,7 +124,7 @@ height: 19px;
     padding-top: 15px;
  }
  
- .nav .heb:hover, .act:hover {
+ .heb:hover, .act:hover {
     background: white;
     border-top: 3px solid #0065FC;
     color: #0065FC;
